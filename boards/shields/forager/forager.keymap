@@ -60,16 +60,14 @@
         };
         raise_layer {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &trans     &trans    &trans  &sys_reset &trans
-&kp INS       &kp PSCRN     &kp K_CMENU   &trans        &out OUT_TOG                          &kp PG_UP  &studio_unlock    &trans  &kp BSPC
+&kp ESCAPE       &kp PSCRN     &kp K_CMENU   &trans        &out OUT_TOG                          &kp PG_UP  &studio_unlock    &trans  &kp BSPC &trans
 &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                              &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT  &kp DEL
-&kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans                                &trans     &trans    &trans  &kp SQT     
+&kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans                                &trans     &trans    &trans  &kp SQT &kp BSPC    
                                                   &tog 3        &kp ENTER               &kp ENTER  &trans
             >;
         };
         gaming {
             bindings = <
-&kp N1  &kp N2    &kp N3    &kp N4     &kp N5                            &kp N6  &kp N7     &kp N8     &kp N9    &kp N0    
 &kp Q   &kp Q     &kp W     &kp E      &kp R                             &kp Y   &kp U      &kp I      &kp O     &kp P     
 &kp A   &kp A     &kp S     &kp D      &kp F                             &kp H   &rhm RSHIFT J      &rhm RALT K      &rhm RGUI L     &rhm RCTRL SEMI  
 &kp Z   &kp Z     &kp X     &kp C      &kp V                              &kp N   &kp M      &kp COMMA  &kp DOT   &kp FSLH  
